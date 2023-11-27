@@ -1,13 +1,30 @@
-function printContactsInfolf ({names,
-phones}){
-const namelist = names.split(",");
-const phonelist = phones.split(",");
-
-namelist.forEach((name, i)=> {
-console.log(`${name}: ${phonelist[i]}`);
-});
-}
-printContactsInfolf({
-names: "Jacob, William, Solomon, Artemis", 
-phones: "34545345345,5454545454,5454545,45454545",
-});
+// const customer = {
+//     username: "Mango",
+//     balance: 24000,
+//     discount: 0.1,
+//     orders: ["Burger", "Pizza", "Salad"],
+//     // Change code below this line
+//     getBalance() {
+//       return this.balance;
+//     },
+//     getDiscount() {
+//       return this.discount;
+//     },
+//     setDiscount(value) {
+//       this.discount = value;
+//     },
+//     getOrders() {
+//       return this.orders;
+//     },
+//     addOrder(cost, order) {
+//       this.balance -= cost - cost * this.discount;
+//       this.orders.push(order);
+//     },
+//     // Change code above this line
+//   };
+  
+//   customer.setDiscount(0.15);
+//   console.log(customer.getDiscount()); // 0.15
+//   customer.addOrder(5000, "Steak");
+//   console.log(customer.getBalance()); // 19750
+//   console.log(customer.getOrders()); // ["Burger", "Pizza", "Salad", "Steak"]
